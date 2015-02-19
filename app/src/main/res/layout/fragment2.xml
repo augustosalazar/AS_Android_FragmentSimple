@@ -1,0 +1,35 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:id="@+id/idFragment2"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.uninorte.androidfragmenttest.MainActivity$PlaceholderFragment" >
+
+    <TextView
+        android:id="@+id/textViewFragment2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:layout_marginBottom="20dp"
+        android:text="@string/tituloFragment2" />
+
+    <Button
+        android:id="@+id/buttonFragment2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/uninortetheme_btn_default_normal_holo_light"
+        android:text="@string/textoBotonFragment2" />
+
+    <TextView
+        android:id="@+id/textViewParameter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:text="" />
+
+</LinearLayout>

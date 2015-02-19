@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">AndroidFragmentTest</string>
+    <string name="action_settings">Settings</string>
+    <string name="tituloFragment1">Fragment 1</string>
+    <string name="textoBotonFragment1">Go to Fragment 2</string>
+    <string name="tituloFragment2">Fragment 2</string>
+    <string name="textoBotonFragment2">Go Back to Fragment 1</string>
+
+</resources>

@@ -1,0 +1,5 @@
+C:\Users\Augusto\AndroidStudioProjects\AndroidFragmentTest-AS\app\build\intermediates\classes\debug
+C:\Users\Augusto\AndroidStudioProjects\AndroidFragmentTest-AS\app\build\intermediates\pre-dexed\debug\support-annotations-20.0.0-bb9c076343d66bba6006b1a096c20b49b0b06443.jar
+C:\Users\Augusto\AndroidStudioProjects\AndroidFragmentTest-AS\app\build\intermediates\pre-dexed\debug\internal_impl-20.0.0-64f8d95118fcb2989df382930a6749f76d528007.jar
+C:\Users\Augusto\AndroidStudioProjects\AndroidFragmentTest-AS\app\build\intermediates\pre-dexed\debug\classes-d15ac606e21bf5d3ed99f60fa25771efc1caa1a0.jar
+C:\Users\Augusto\AndroidStudioProjects\AndroidFragmentTest-AS\app\build\intermediates\pre-dexed\debug\classes-50cfa967cc85b27616fc0c02c4726d4e27915853.jar
