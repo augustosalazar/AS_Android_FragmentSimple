@@ -1,5 +1,6 @@
 package com.uninorte.androidfragmenttest;
 
+import android.support.v4.app.FragmentTransaction;
 import android.support.v7.app.ActionBarActivity;
 import android.support.v7.app.ActionBar;
 import android.support.v4.app.Fragment;
@@ -13,7 +14,10 @@ import android.os.Build;
 
 
 
-public class MainActivity extends ActionBarActivity {
+public class MainActivity extends ActionBarActivity implements Fragment1.Callback {
+
+    private Fragment1 mFrag1;
+    private Fragment2 mFrag2;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -24,8 +28,11 @@ public class MainActivity extends ActionBarActivity {
                     .add(R.id.container, new Fragment1())
                     .commit();
         }
-    }
 
+
+        mFrag2 = new Fragment2();
+
+    }
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
@@ -43,4 +50,16 @@ public class MainActivity extends ActionBarActivity {
         return super.onOptionsItemSelected(item);
     }
 
+    @Override
+    public void onFordward(int val) {
+        Bundle args = new Bundle();
+        args.putInt("someInt", val);
+        mFrag2.setArguments(args);
+
+        FragmentTransaction ft = this
+                .getSupportFragmentManager().beginTransaction();
+        ft.replace(R.id.container, mFrag2)
+                .addToBackStack("mFragment2").commit();
+
+    }
 }
