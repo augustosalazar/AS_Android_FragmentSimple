@@ -868,7 +868,7 @@ containing a value of this type.
         public static final int always=0x7f080013;
         public static final int beginning=0x7f08000f;
         public static final int buttonFragment1=0x7f080040;
-        public static final int buttonFragment2=0x7f080043;
+        public static final int buttonFragment2=0x7f080044;
         public static final int checkbox=0x7f08002d;
         public static final int collapseActionView=0x7f080014;
         public static final int container=0x7f08003c;
@@ -916,7 +916,7 @@ containing a value of this type.
         public static final int tabMode=0x7f080008;
         public static final int textViewFragment1=0x7f08003e;
         public static final int textViewFragment2=0x7f080042;
-        public static final int textViewParameter=0x7f080044;
+        public static final int textViewParameter=0x7f080043;
         public static final int title=0x7f08002b;
         public static final int top_action_bar=0x7f080020;
         public static final int up=0x7f080021;
@@ -975,9 +975,10 @@ containing a value of this type.
         public static final int abc_shareactionprovider_share_with_application=0x7f0a000c;
         public static final int action_settings=0x7f0a000d;
         public static final int app_name=0x7f0a000e;
-        public static final int hello_world=0x7f0a000f;
-        public static final int textoBotonFragment1=0x7f0a0010;
+        public static final int textoBotonFragment1=0x7f0a000f;
+        public static final int textoBotonFragment2=0x7f0a0010;
         public static final int tituloFragment1=0x7f0a0011;
+        public static final int tituloFragment2=0x7f0a0012;
     }
     public static final class style {
         /** 
